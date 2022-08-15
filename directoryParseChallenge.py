@@ -7,8 +7,6 @@ fPath = os.path.abspath('C:\\Users\\matts\\Desktop\\FilePractice\\')
 # os.listdir(fPath) will iterate through all the files and list them, the 
 # for loop will actually stash those into a list for me to iterate over.
 def createFileList():
-    # initialize the list
-    fileList = []
     # set up for loop iteration to grab the files
     for file in os.listdir(fPath):
         # We actually need two pieces here. The absolute directory and file type
