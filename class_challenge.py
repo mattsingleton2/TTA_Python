@@ -9,7 +9,9 @@ class Team:
         self.team_name = team_name
         self.supervisor_name = supervisor_name
         self.total_members = total_members
-    
+    # My stab at a self-instantiating object method... I don't know that it worked.
+    # Output from the class method call was
+    # The <__main__.Team object at 0x000000014F058847C0> team has been created. Odd.
     def createTeam(self):
         supervisorName = input("Enter the new supervisor's name: \n>>> ")
         teamName = input("What team is this supervisor responsible for: \n>>> ")
