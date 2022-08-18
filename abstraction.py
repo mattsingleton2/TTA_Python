@@ -3,6 +3,9 @@ from abc import ABC, abstractclassmethod
 
 #   Let's set up an abstract parent class.
 class Computer(ABC):
+    #   Setting up a normal method for comparison's sake
+    def beepBoop(self):
+        print("A light 'beep-boop' sound emits from the quantum PC you turned on.")
     #   Here, we're telling the interpreter to relax...
     #   This method will be defined later in classes that inherit.
     @abstractclassmethod
